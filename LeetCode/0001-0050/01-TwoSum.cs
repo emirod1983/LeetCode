@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LeetCode._0001_0050
+﻿namespace LeetCode._0001_0050
 {
     public class _01_TwoSum
     {

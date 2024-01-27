@@ -2,16 +2,16 @@ using LeetCode._0001_0050;
 
 namespace LeetCode_Tests
 {
-    public class _01_TwoSum_Tests
+    public class _01_TwoSumTests
     {
         private _01_TwoSum Sut {  get; set; }
 
-        public _01_TwoSum_Tests()
+        public _01_TwoSumTests()
         {
             this.Sut = new _01_TwoSum();
         }
 
-        public class TheMethod_TwoSum : _01_TwoSum_Tests
+        public class TheMethod_TwoSum : _01_TwoSumTests
         {
             [Theory]
             [InlineData(new[] { 2, 7, 11, 15 }, 9, new[] { 0, 1 })]
@@ -26,7 +26,7 @@ namespace LeetCode_Tests
         }
 
 
-        public class TheMethod_TwoSum_Dict : _01_TwoSum_Tests
+        public class TheMethod_TwoSum_Dict : _01_TwoSumTests
         {
             [Theory]
             [InlineData(new[] { 2, 7, 11, 15 }, 9, new[] { 0, 1 })]
